@@ -8,36 +8,144 @@
 </head>
 
 <body>
-	<!-- HERO SECTION -->
-	<section class="relative h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 to-pink-200">
-		<video id="heroVideo" autoplay muted loop class="w-full h-full object-cover absolute top-0 left-0 z-0"></video>
-	
-		<div class="relative z-10 text-center px-6">
-			<h1 class="text-4xl sm:text-6xl font-bold text-white drop-shadow-lg mb-4">Hai Sayang 💖</h1>
-			<p class="text-white text-lg drop-shadow-md">I Love Youu 🥰</p>
+	<!-- HERO SECTION DENGAN BACKGROUND GAMBAR -->
+	<section class="relative h-screen bg-cover bg-center" style="background-image: url('img/bg.png');">
+		<!-- Overlay gelap supaya teks lebih terbaca -->
+		<div class="absolute inset-0 bg-black/5"></div>
+
+		<!-- Konten Hero -->
+		<div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6">
+			<div class="bg-black/50 p-6 rounded-lg shadow-lg">
+				<h1 class="text-4xl md:text-6xl font-bold mb-4">Happy 2nd Mensiv 💖</h1>
+				<p class="text-xl md:text-2xl">Terima kasih sudah betah sama saya sayang...</p>
+			</div>
 		</div>
 	</section>
 	
+	
 	<!-- STICKY VIDEO -->
-	<div class="sticky top-4 z-20 px-4">
-		<video autoplay muted loop class="w-[320px] h-[180px] border-[2px] border-pink-400 rounded-xl shadow-xl mx-auto">
+	<div class="sticky top-4 mt-4 z-20 px-4">
+		<video autoplay loop class="w-full h-fit md:w-[320px] md:h-[180px] border-[2px] border-pink-400 rounded-xl shadow-xl mx-auto">
 			<source src="kamu-main-gitar.mp4" type="video/mp4">
 			Browsermu tidak mendukung video ini.
 		</video>
 	</div>
 	
 	<!-- GALERI SECTION -->
-	<section class="mt-12 px-6">
-		<h2 class="text-2xl font-bold text-center mb-6">Kenangan Bulan Ini 📸</h2>
-		<div class="overflow-x-auto whitespace-nowrap space-x-4 flex px-2 py-4">
-			<img src="img/foto1.jpg" class="inline-block h-48 rounded-lg shadow-md">
-			<img src="img/foto1.jpg" class="inline-block h-48 rounded-lg shadow-md">
-			<img src="img/foto1.jpg" class="inline-block h-48 rounded-lg shadow-md">
-			<img src="img/foto1.jpg" class="inline-block h-48 rounded-lg shadow-md">
-			<img src="img/foto1.jpg" class="inline-block h-48 rounded-lg shadow-md">
+	<section class="px-6 py-10">
+		<div class="w-full flex justify-center">
+			<h2 class="text-2xl font-bold text-center rounded-md mb-6 bg-black/50 w-fit text-white p-6">Kenangan Kita Bulan Ini 💞</h2>
+		</div>
+	
+		<div class="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
+	
+			<!-- Foto Biasa -->
+			<img src="img/foto1.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto2.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto3.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video1.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto4.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto5.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto6.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video2.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto7.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto8.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto9.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video3.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto10.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto11.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto12.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video4.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto13.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto14.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto16.jpg" class="w-full rounded-lg shadow-md" /> <!-- foto15 di-skip -->
+			<video src="img/video5.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto17.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto18.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto19.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto20.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video6.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto21.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto22.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto23.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto24.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto25.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video7.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto26.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto27.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto28.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto29.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video8.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto30.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto31.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto32.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video9.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto33.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto34.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto35.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto36.jpg" class="w-full rounded-lg shadow-md" />
+			<video src="img/video10.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<img src="img/foto37.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto38.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto39.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/foto40.jpg" class="w-full rounded-lg shadow-md" />
+	
+			<!-- Video dari WhatsApp -->
+			<video src="img/VID-20250620-WA0007.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+			<video src="img/VID-20250620-WA0008.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+			<video src="img/video11.mp4" autoplay muted loop class="w-full rounded-lg shadow-md"></video>
+	
+			<!-- Foto WhatsApp -->
+			<img src="img/IMG-20250620-WA0061.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250620-WA0062.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250620-WA0063.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250620-WA0064.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250620-WA0065.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250620-WA0066.jpg" class="w-full rounded-lg shadow-md" />
+	
+			<img src="img/IMG-20250625-WA0077.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250625-WA0078.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250625-WA0079.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250625-WA0080.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250625-WA0081.jpg" class="w-full rounded-lg shadow-md" />
+	
+			<img src="img/IMG-20250626-WA0008.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0009.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0010.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0011.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0012.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0022.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0023.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0024.jpg" class="w-full rounded-lg shadow-md" />
+			<img src="img/IMG-20250626-WA0025.jpg" class="w-full rounded-lg shadow-md" />
+	
 		</div>
 	</section>
+	
 
+		<!-- HERO SECTION DENGAN BACKGROUND GAMBAR -->
+		<section class="relative h-screen bg-cover bg-center" style="background-image: url('img/bg.png');">
+			<!-- Overlay gelap supaya teks lebih terbaca -->
+			<div class="absolute inset-0 bg-black/5"></div>
+		
+			<!-- Konten Hero -->
+			<div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6">
+				<div class="bg-black/50 p-6 rounded-lg shadow-lg">
+					<h1 class="text-4xl md:text-6xl font-bold mb-4">Langgeng Selalu Sayang 💖</h1>
+					<p class="text-xl md:text-2xl">Amiinn...</p>
+				</div>
+			</div>
+		</section>
 </body>
 
 </html>
